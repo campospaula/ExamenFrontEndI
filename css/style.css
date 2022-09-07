@@ -1,0 +1,463 @@
+
+
+/* ClASES GENERALES */
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif; 
+    margin: 0;
+    padding:0;
+}
+
+body {
+    background-image:url("/Paula-Campos/img/bg-tablet-patternfondo.svg");
+    font-size: 16px;
+}
+
+h1, h2, h3, h5 {
+    color: rgb(35, 44, 81); 
+}
+
+h1 {
+    font-size: 35px;
+}
+
+p {
+    color: rgb(143, 148, 167);
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: left;
+    width: 80%;
+}
+
+.number {
+    background-color: #F3603B;
+    border-radius: 50px;
+    border-color: none;
+    bottom: -40px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 8px;
+    position: relative;
+    width: 69px;
+    height: 43px;
+    right:100px;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.hamburger {
+display: none;
+}
+/* HEADER */
+
+.nav {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+/* Nav-menu */
+
+.sub-color {
+    color: rgb(35, 44, 81);
+}
+
+.ul { 
+    list-style-type: none;
+    text-align: center;
+}
+
+.li {
+    display: inline-block;
+    margin-right:10px;
+    text-decoration: none;
+}
+
+/* Estilo botón del nav */
+
+button {
+    align-items: center;
+    background-color: #F3603B;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: #F3603B 5px solid;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: 44px;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 10px;
+    width: 140px;
+    cursor: pointer;
+}
+
+/* MAIN*/
+
+/* 1ER-Section */
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.caja-a {
+    display: flex;
+    width: 310px;
+    height: 350px;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.caja-b {
+    display: flex;
+    text-align:left;
+    margin-right: 10%;
+    height: 500px;
+}
+
+.caja-c {
+    display: flex;
+    width: 310px;
+    height: 350px;
+    flex-direction: column;
+    padding-top: 3%;
+} 
+
+.caja-d {
+    display: flex;
+    text-align:left;
+    margin-right:5%;
+    width:375px;
+    height: 460px;
+} 
+
+/* 2DO Section */
+
+.title {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.flex-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    width:250px;
+    height: 250px;
+    align-items: center;  
+}
+
+.size-avatar {
+    margin-bottom: 5%;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.description {
+    margin-top: 5%;
+    text-align: center;
+    width: 250px;
+}
+
+.button-2 {
+    display: flex;
+    margin: 0%;
+    justify-content: center;
+}
+
+/* 3RA Section */
+
+.container {
+    background-image:url(/Paula-Campos/img/bg-simplify-section-desktop.svg);
+    background-color: #F3603B; 
+    display: flex;
+    flex-wrap: wrap;
+    color:white;
+    justify-content:space-around;
+    height: 200px;  
+}
+
+.title-section {
+    display: flex;
+    align-self: center;
+    font-size: 32px;
+    width: 35%;
+    height: 30%;
+    padding-left: 50px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* Estilo boton de 3ra section */
+
+.button-container {
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+}
+
+#button-section {
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: white 5px solid;
+    color:#F3603B;       
+}
+
+/* FOOTER */
+
+.font-color {
+    color: white;
+}
+
+.container-footer {
+    background-color: rgb(29, 30, 37);
+    color:white;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    justify-content: space-around;
+    align-content: center;
+    padding: 50px;
+}
+
+
+.container-footer ul li {
+    margin-bottom: 1rem;
+    width: 20rem;
+}
+
+.container-footer-log {
+    margin-right:4rem;
+}
+
+.container-footer-copyrights {
+    margin-left: 15rem;
+}
+
+.list-container {
+    display: none;
+}
+
+/* form */
+.container-form { 
+    display: flex;
+    flex-direction:wrap;
+    width: 30rem;
+    justify-content:center;
+}
+
+.form-input {
+    border-radius: 50px;
+    border:#F3603B 1px solid;
+    text-align: center;
+    font-size: 10px;
+    width: 201px;
+    height: 44px;
+    margin-top: 1%;
+    margin-right: 5px;
+}
+
+.button-go {
+    width: 63px;
+    height: 42px;
+    margin-top: 1%;
+    margin-left: 5px;
+}
+/* PSEDUO CLASES Y ELEMENTOS */
+
+a:hover {
+    color: #F3603B;
+}
+
+button:hover {
+    background-color: rgb(242, 95, 58, 0.5);
+    border: rgb(242, 95, 58, 0.5);
+}
+
+input:focus {
+    color:#F3603B;
+    font-weight: bold;
+}
+
+.redes img:hover {
+    color: #F3603B;
+    filter: invert(46%) sepia(77%) saturate(1898%) hue-rotate(337deg) brightness(97%) contrast(96%);
+}
+
+/* MEDIA QUERIES Mobile: 420px y Desktop: 1440px*/
+@media (max-width: 450px) {
+
+    
+    #nav-list, header button {
+        display: none;
+        
+    }
+
+    .flex-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .caja-b {
+        display: flex;
+        order:-1;
+        height: 20rem;
+        margin-left:4rem;
+    }
+    
+    .caja-a {
+        text-align: center ;
+        margin: 0;
+    }
+
+    .caja-c {
+        width: 80%;
+        height: 100%;
+        padding-bottom: 0;
+    }
+    .caja-d {
+        display: flex;
+        text-align:left;
+        margin: 0;
+        margin-bottom: 10%;
+        padding-left: 100px;
+    }
+
+    .caja-d p {
+        display: flex;
+        margin: 0%;
+        text-align: justify;
+    }
+
+    .caja-d h5 {
+        display: flex;
+        margin: 0%;
+        font-size:16px;
+        margin-bottom: 2vw;
+    }
+
+    h1{
+        text-align: center;
+        margin-top: 3vw;
+    }
+
+    h2{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    p {
+        text-align: center;
+        margin-top:4vw;
+        margin-left: 7vw;
+    }
+    
+    .caja-a button {
+        display: flex;
+        align-self: center;
+    }
+
+    div.button-2 {
+        display: none;
+    }
+
+    h1.title-section {
+        font-size: 30px;
+        align-self: center;
+        width: auto;
+        padding: 5%;
+    }
+
+    .hamburger {
+        display: flex;  
+    }
+
+    .box-li {
+        display: none;
+    }
+
+    .list-container {
+        display: flex;
+        width: 50vw;
+        justify-content: center;
+    }
+
+    .box-ul {
+        width: 20%;
+        margin-right: 8%;
+    }
+
+    .box-ul ul li {
+        width: 50vw;
+        margin: 0%;
+        justify-self: center;
+    }
+
+    .container-footer {
+        padding: 0%;
+        height: 40vh;
+    }
+
+    .container-form {
+        order: -1;
+        width: 100%;
+        align-self: center;
+    }
+
+    .list-container {
+        order: 0;
+        width: 100%;
+    }
+
+    .container-footer-log {
+        order: 2;
+        width: 80%;
+        align-items: center;
+        margin-left: 30%;
+        margin-top:5%;
+    }
+
+    .redes {
+        order: 1;
+        width: 30%;
+        align-self: center;
+        margin-top: 5%;
+    }
+
+    .container-footer-copyrights {
+        order: 3;
+        width: 100%;
+        font-size: 3vw;
+        margin-top: 5%;
+        margin-left: 27%;
+    }
+
+    h5.font-color {
+        color: rgb(143, 148, 167)
+    }
+ 
+}
